@@ -16,13 +16,16 @@ body
 {
     background-color: hsl(47, 88%, 63%);
 
-    font-family: 'Minha-Fonte', sans-serif;
+    height: 100vh;
+
+    font-family: 'Minha-Fonte-Leve', sans-serif;
     font-size: 1rem;
 
     margin-top: 3%;
 
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
 }
 
 main
@@ -99,8 +102,8 @@ main .person
 
 main .person .photo
 {   
-    height: 6vh;
-    width: 8%;
+    height: auto;
+    width: 40px;
 }
 
 main .person p
