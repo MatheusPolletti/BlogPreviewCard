@@ -94,12 +94,13 @@ main .text p
 main .person
 {
     display: flex;
+    align-items: center;
 }
 
 main .person .photo
 {   
-    height: 8vh;
-    width: 12%;
+    height: 6vh;
+    width: 8%;
 }
 
 main .person p
@@ -107,6 +108,12 @@ main .person p
     font-family: 'Minha-Fonte-Pesada', sans-serif;
 
     padding-left: 4%;
+    padding-bottom: -2%;
+}
+
+main .attribution
+{
+    margin-top: -10px;
 }
 
 @media (max-width: 600px) 
