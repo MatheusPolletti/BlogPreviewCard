@@ -88,8 +88,6 @@ main .text p
 {
     color: hsl(0, 0%, 42%);
 
-    max-width: 90%;
-
     padding-bottom: 4%;
 }
 
